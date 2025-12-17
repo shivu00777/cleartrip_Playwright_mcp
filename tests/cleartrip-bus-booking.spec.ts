@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Automate bus booking on Cleartrip from Delhi to Jaipur on 17 Dec 2025', async ({ browser }) => {
+test('Automate bus booking on Cleartrip from Delhi to Jaipur on 18 jan 2026', async ({ browser }) => {
   const context = await browser.newContext({ permissions: [] });
   const page = await context.newPage();
   // Navigate to Cleartrip homepage
