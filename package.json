@@ -6,9 +6,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This project automates the Cleartrip bus booking flow using Playwright.\r It simulates a real user journey by selecting a bus from Delhi to Jaipur, choosing a specific travel date, and selecting a particular bus.",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivu00777/cleartrip_Playwright_mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivu00777/cleartrip_Playwright_mcp/issues"
+  },
+  "homepage": "https://github.com/shivu00777/cleartrip_Playwright_mcp#readme"
 }
