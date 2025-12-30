@@ -7,13 +7,13 @@ test('Automate bus booking on Cleartrip from Delhi to Jaipur on 18 jan 2026', as
   await page.goto('https://www.cleartrip.com');
 
   // Close popup if it appears
-  // await page.locator("//div[@class='pb-1 px-1 flex flex-middle nmx-1']//*[name()='svg']").click();
+  await page.locator("//div[@class='pb-1 px-1 flex flex-middle nmx-1']//*[name()='svg']").click();
 
 // Close popup ONLY if it appears (CI safe)
-const closePopup = page.locator('svg[data-testid="close"]');
-if (await closePopup.isVisible({ timeout: 3000 })) {
-  await closePopup.click();
-}
+// const closePopup = page.locator('svg[data-testid="close"]');
+// if (await closePopup.isVisible({ timeout: 3000 })) {
+//   await closePopup.click();
+// }
 
   
   // Click on Buses link
